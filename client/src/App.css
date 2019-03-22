@@ -1,0 +1,19 @@
+.file-upload {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 90vw;
+  height: 30vh;
+  margin: auto;
+  padding: 0 2rem;
+}
+
+.file-upload > input {
+  border-bottom: solid 1px black;
+  padding: 0.5rem 1rem;
+}
+
+.file-upload > input[type=text],
+.file-upload > input[type=email] {
+  border: none;
+}
